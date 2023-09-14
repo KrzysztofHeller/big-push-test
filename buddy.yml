@@ -1,7 +1,7 @@
 - pipeline: "test"
   on: "CLICK"
   refs:
-  - ":default"
+  - "refs/heads/main"
   fetch_all_refs: true
   fail_on_prepare_env_warning: true
   actions:
